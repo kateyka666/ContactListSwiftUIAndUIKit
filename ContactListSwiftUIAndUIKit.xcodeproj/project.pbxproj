@@ -13,6 +13,15 @@
 		79679B8526C2C68C001DC64E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79679B8426C2C68C001DC64E /* Assets.xcassets */; };
 		79679B8826C2C68C001DC64E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79679B8726C2C68C001DC64E /* Preview Assets.xcassets */; };
 		79679B8B26C2C68C001DC64E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79679B8926C2C68C001DC64E /* LaunchScreen.storyboard */; };
+		79679B9326C2C69F001DC64E /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79679B9226C2C69F001DC64E /* DataManager.swift */; };
+		79679B9526C2C6C4001DC64E /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79679B9426C2C6C4001DC64E /* Person.swift */; };
+		79679B9726C2C8E2001DC64E /* PersonList2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79679B9626C2C8E2001DC64E /* PersonList2.swift */; };
+		79679B9926C2CA43001DC64E /* PersonListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79679B9826C2CA43001DC64E /* PersonListCell.swift */; };
+		79679B9B26C2FB49001DC64E /* ContactList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79679B9A26C2FB49001DC64E /* ContactList.swift */; };
+		79679B9D26C3BA1A001DC64E /* ContactRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79679B9C26C3BA1A001DC64E /* ContactRow.swift */; };
+		79679B9F26C3C6D1001DC64E /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79679B9E26C3C6D1001DC64E /* DetailsView.swift */; };
+		79679BA126C3ED52001DC64E /* PersonList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79679BA026C3ED52001DC64E /* PersonList.swift */; };
+		79679BA326C3F02E001DC64E /* CustomTabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79679BA226C3F02E001DC64E /* CustomTabItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		79679B8726C2C68C001DC64E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		79679B8A26C2C68C001DC64E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79679B8C26C2C68C001DC64E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79679B9226C2C69F001DC64E /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		79679B9426C2C6C4001DC64E /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		79679B9626C2C8E2001DC64E /* PersonList2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonList2.swift; sourceTree = "<group>"; };
+		79679B9826C2CA43001DC64E /* PersonListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListCell.swift; sourceTree = "<group>"; };
+		79679B9A26C2FB49001DC64E /* ContactList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactList.swift; sourceTree = "<group>"; };
+		79679B9C26C3BA1A001DC64E /* ContactRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRow.swift; sourceTree = "<group>"; };
+		79679B9E26C3C6D1001DC64E /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		79679BA026C3ED52001DC64E /* PersonList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonList.swift; sourceTree = "<group>"; };
+		79679BA226C3F02E001DC64E /* CustomTabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +74,11 @@
 		79679B7D26C2C68B001DC64E /* ContactListSwiftUIAndUIKit */ = {
 			isa = PBXGroup;
 			children = (
-				79679B7E26C2C68B001DC64E /* AppDelegate.swift */,
-				79679B8026C2C68B001DC64E /* SceneDelegate.swift */,
-				79679B8226C2C68B001DC64E /* ContentView.swift */,
-				79679B8426C2C68C001DC64E /* Assets.xcassets */,
-				79679B8926C2C68C001DC64E /* LaunchScreen.storyboard */,
-				79679B8C26C2C68C001DC64E /* Info.plist */,
+				79679BA826C42C1B001DC64E /* Supporting Files */,
+				79679BA626C42B40001DC64E /* Model */,
+				79679BA526C42B2E001DC64E /* Views */,
+				79679BA426C42B22001DC64E /* Managers */,
+				79679BA726C42BF9001DC64E /* UIKitView */,
 				79679B8626C2C68C001DC64E /* Preview Content */,
 			);
 			path = ContactListSwiftUIAndUIKit;
@@ -73,6 +90,56 @@
 				79679B8726C2C68C001DC64E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		79679BA426C42B22001DC64E /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				79679B9226C2C69F001DC64E /* DataManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		79679BA526C42B2E001DC64E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				79679B8226C2C68B001DC64E /* ContentView.swift */,
+				79679BA226C3F02E001DC64E /* CustomTabItem.swift */,
+				79679BA026C3ED52001DC64E /* PersonList.swift */,
+				79679B9A26C2FB49001DC64E /* ContactList.swift */,
+				79679B9C26C3BA1A001DC64E /* ContactRow.swift */,
+				79679B9E26C3C6D1001DC64E /* DetailsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		79679BA626C42B40001DC64E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				79679B9426C2C6C4001DC64E /* Person.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		79679BA726C42BF9001DC64E /* UIKitView */ = {
+			isa = PBXGroup;
+			children = (
+				79679B9626C2C8E2001DC64E /* PersonList2.swift */,
+				79679B9826C2CA43001DC64E /* PersonListCell.swift */,
+			);
+			path = UIKitView;
+			sourceTree = "<group>";
+		};
+		79679BA826C42C1B001DC64E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79679B7E26C2C68B001DC64E /* AppDelegate.swift */,
+				79679B8026C2C68B001DC64E /* SceneDelegate.swift */,
+				79679B8426C2C68C001DC64E /* Assets.xcassets */,
+				79679B8926C2C68C001DC64E /* LaunchScreen.storyboard */,
+				79679B8C26C2C68C001DC64E /* Info.plist */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,8 +212,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79679B9526C2C6C4001DC64E /* Person.swift in Sources */,
+				79679B9F26C3C6D1001DC64E /* DetailsView.swift in Sources */,
 				79679B7F26C2C68B001DC64E /* AppDelegate.swift in Sources */,
+				79679B9D26C3BA1A001DC64E /* ContactRow.swift in Sources */,
+				79679B9326C2C69F001DC64E /* DataManager.swift in Sources */,
 				79679B8126C2C68B001DC64E /* SceneDelegate.swift in Sources */,
+				79679B9B26C2FB49001DC64E /* ContactList.swift in Sources */,
+				79679BA326C3F02E001DC64E /* CustomTabItem.swift in Sources */,
+				79679BA126C3ED52001DC64E /* PersonList.swift in Sources */,
+				79679B9926C2CA43001DC64E /* PersonListCell.swift in Sources */,
+				79679B9726C2C8E2001DC64E /* PersonList2.swift in Sources */,
 				79679B8326C2C68B001DC64E /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,7 +366,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ContactListSwiftUIAndUIKit/Preview Content\"";
 				DEVELOPMENT_TEAM = 96UHXBP52X;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = ContactListSwiftUIAndUIKit/Info.plist;
+				INFOPLIST_FILE = "ContactListSwiftUIAndUIKit/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,7 +387,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ContactListSwiftUIAndUIKit/Preview Content\"";
 				DEVELOPMENT_TEAM = 96UHXBP52X;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = ContactListSwiftUIAndUIKit/Info.plist;
+				INFOPLIST_FILE = "ContactListSwiftUIAndUIKit/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
