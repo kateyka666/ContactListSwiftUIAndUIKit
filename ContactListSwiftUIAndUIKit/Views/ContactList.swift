@@ -14,7 +14,8 @@ struct ContactList: View {
       
         List{
             ForEach(persons, id: \.self) { person in
-                Section(header: Text(person.fullName)) {
+                Section(header: HeaderSectionView(text: person.fullName) )
+                {
                     ContactRow(imageName: "phone.circle.fill", text: person.phone)
                    ContactRow(imageName: "envelope.circle.fill", text: person.email)
                      
@@ -26,6 +27,7 @@ struct ContactList: View {
         }
     }
 }
+
 
 struct ContactList_Previews: PreviewProvider {
     static var previews: some View {

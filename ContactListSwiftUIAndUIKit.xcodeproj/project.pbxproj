@@ -22,6 +22,7 @@
 		79679B9F26C3C6D1001DC64E /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79679B9E26C3C6D1001DC64E /* DetailsView.swift */; };
 		79679BA126C3ED52001DC64E /* PersonList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79679BA026C3ED52001DC64E /* PersonList.swift */; };
 		79679BA326C3F02E001DC64E /* CustomTabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79679BA226C3F02E001DC64E /* CustomTabItem.swift */; };
+		79679BAA26C47119001DC64E /* HeaderSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79679BA926C47119001DC64E /* HeaderSectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		79679B9E26C3C6D1001DC64E /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 		79679BA026C3ED52001DC64E /* PersonList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonList.swift; sourceTree = "<group>"; };
 		79679BA226C3F02E001DC64E /* CustomTabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabItem.swift; sourceTree = "<group>"; };
+		79679BA926C47119001DC64E /* HeaderSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderSectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				79679BA226C3F02E001DC64E /* CustomTabItem.swift */,
 				79679BA026C3ED52001DC64E /* PersonList.swift */,
 				79679B9A26C2FB49001DC64E /* ContactList.swift */,
+				79679BA926C47119001DC64E /* HeaderSectionView.swift */,
 				79679B9C26C3BA1A001DC64E /* ContactRow.swift */,
 				79679B9E26C3C6D1001DC64E /* DetailsView.swift */,
 			);
@@ -224,6 +227,7 @@
 				79679B9926C2CA43001DC64E /* PersonListCell.swift in Sources */,
 				79679B9726C2C8E2001DC64E /* PersonList2.swift in Sources */,
 				79679B8326C2C68B001DC64E /* ContentView.swift in Sources */,
+				79679BAA26C47119001DC64E /* HeaderSectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
