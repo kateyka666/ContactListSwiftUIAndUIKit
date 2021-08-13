@@ -12,9 +12,9 @@ struct DetailsView: View {
     var body: some View {
         
         Form {
-            Text(person.fullName)
-                .font(.largeTitle)
-                .bold()
+//            Text(person.fullName)
+//                .font(.largeTitle)
+//                .bold()
                 
             HStack {
                 Spacer()
@@ -25,6 +25,7 @@ struct DetailsView: View {
             }.padding()
             ContactRow(imageName: "phone.circle.fill", text: person.phone)
             ContactRow(imageName: "envelope.circle.fill", text: person.email)
+                .navigationTitle(person.fullName)
         }
         
     }
